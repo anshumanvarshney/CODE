@@ -1,0 +1,2 @@
+reverse ll using iteration 
+search in rotated and sorted using iteration

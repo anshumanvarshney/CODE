@@ -1,0 +1,21 @@
+void main( )
+{
+    struct node *first, *second ;
+    first = second = NULL ;  /* empty linked lists */
+
+
+    append ( &first, 1 ) ;
+    append ( &first, 2 ) ;
+    append ( &first, 3 ) ;
+    append ( &first, 4 ) ;
+    append ( &first, 5 ) ;
+    append ( &first, 6 ) ;
+    append ( &first, 7 ) ;
+
+    clrscr( ) ;
+    display ( first ) ;
+
+    copy ( first, &second ) ;
+
+    display ( second ) ;
+}
